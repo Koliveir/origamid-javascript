@@ -25,3 +25,20 @@ console.log(total);
 // Você pode priorizar o que está dentro de parênteses
 var total1 = (20 + 5) * 2;
 console.log(total1);
+
+// Operadores unários
+var incremento = 1;
+console.log(incremento++);
+console.log(incremento);
+
+var incremento2 = 5;
+console.log(++incremento2);
+console.log(incremento2);
+// decremento --x
+
+// O + e - tenta transformar o valor seguinte em número
+var idade2 = "28";
+console.log(+idade2 + 5);
+
+var possuiFaculdade = true;
+console.log(+possuiFaculdade);
