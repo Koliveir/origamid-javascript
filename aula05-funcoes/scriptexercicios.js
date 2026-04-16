@@ -1,16 +1,9 @@
 // Crie uma função para verificar se um valor é Truthy
 
-var valor = "";
-
 function verificaValor(dados) {
-  if (!!dados) {
-    return console.log("O valor é true");
-  } else {
-    return console.log("O valor é false");
-  }
+  return !!dados;
 }
-verificaValor(valor);
-
+console.log(verificaValor("Texto"));
 // Crie uma função matemática que retorne o perímetro de um quadrado
 // lembrando: perímetro é a soma dos quatro lados do quadrado
 
